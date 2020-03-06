@@ -7,19 +7,26 @@
 //
 
 import SwiftUI
+import Combine
 
-class Order {
-    var items = [MenuItem]()
+class Order : ObservableObject{
+    
+     @Published var items = [MenuItem]()
+   
 
-    var total: Int {
+        var total: Int {
         if items.count > 0 {
             return items.reduce(0) { $0 + $1.price }
         } else {
             return 0
+            }
         }
-    }
 
     func add(item: MenuItem) {
+        items.append(item)
+    }
+    
+    func addFavortieItem(item : MenuItem){
         items.append(item)
     }
 

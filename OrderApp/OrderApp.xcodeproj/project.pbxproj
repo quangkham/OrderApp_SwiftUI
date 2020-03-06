@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1978B6D82411FCDE0065811D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978B6D72411FCDE0065811D /* OrderView.swift */; };
+		1978B6DA2412007A0065811D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978B6D92412007A0065811D /* AppView.swift */; };
 		197EA3442410C52B00D90AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EA3432410C52B00D90AC8 /* AppDelegate.swift */; };
 		197EA3462410C52B00D90AC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EA3452410C52B00D90AC8 /* SceneDelegate.swift */; };
 		197EA3482410C52B00D90AC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EA3472410C52B00D90AC8 /* ContentView.swift */; };
 		197EA34A2410C53D00D90AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197EA3492410C53D00D90AC8 /* Assets.xcassets */; };
 		197EA34D2410C53D00D90AC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197EA34C2410C53D00D90AC8 /* Preview Assets.xcassets */; };
 		197EA3502410C53D00D90AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197EA34E2410C53D00D90AC8 /* LaunchScreen.storyboard */; };
+		19B2481324120F87003363B7 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B2481224120F87003363B7 /* CheckOutView.swift */; };
 		19BBF2682410EFCE00872D42 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBF2672410EFCE00872D42 /* ItemRow.swift */; };
 		19BBF26A2411021100872D42 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBF2692411021100872D42 /* ItemDetail.swift */; };
 		19BDFEE32410D9FD001DC294 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BDFEDE2410D9FB001DC294 /* Menu.swift */; };
@@ -22,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1978B6D72411FCDE0065811D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		1978B6D92412007A0065811D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		197EA3402410C52B00D90AC8 /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		197EA3432410C52B00D90AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		197EA3452410C52B00D90AC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +35,7 @@
 		197EA34C2410C53D00D90AC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		197EA34F2410C53D00D90AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197EA3512410C53D00D90AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B2481224120F87003363B7 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
 		19BBF2672410EFCE00872D42 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		19BBF2692411021100872D42 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		19BDFEDE2410D9FB001DC294 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -72,15 +78,18 @@
 				197EA3432410C52B00D90AC8 /* AppDelegate.swift */,
 				197EA3452410C52B00D90AC8 /* SceneDelegate.swift */,
 				197EA3472410C52B00D90AC8 /* ContentView.swift */,
-				19BBF2672410EFCE00872D42 /* ItemRow.swift */,
-				19BDFEE02410D9FC001DC294 /* Helper.swift */,
 				19BDFEDF2410D9FB001DC294 /* Order.swift */,
+				19BBF2672410EFCE00872D42 /* ItemRow.swift */,
+				19BBF2692411021100872D42 /* ItemDetail.swift */,
+				1978B6D72411FCDE0065811D /* OrderView.swift */,
+				19B2481224120F87003363B7 /* CheckOutView.swift */,
+				19BDFEE02410D9FC001DC294 /* Helper.swift */,
 				19BDFEDE2410D9FB001DC294 /* Menu.swift */,
 				197EA3492410C53D00D90AC8 /* Assets.xcassets */,
 				197EA34E2410C53D00D90AC8 /* LaunchScreen.storyboard */,
 				197EA3512410C53D00D90AC8 /* Info.plist */,
 				197EA34B2410C53D00D90AC8 /* Preview Content */,
-				19BBF2692411021100872D42 /* ItemDetail.swift */,
+				1978B6D92412007A0065811D /* AppView.swift */,
 			);
 			path = OrderApp;
 			sourceTree = "<group>";
@@ -171,7 +180,10 @@
 				19BBF2682410EFCE00872D42 /* ItemRow.swift in Sources */,
 				19BDFEE32410D9FD001DC294 /* Menu.swift in Sources */,
 				19BBF26A2411021100872D42 /* ItemDetail.swift in Sources */,
+				1978B6D82411FCDE0065811D /* OrderView.swift in Sources */,
 				197EA3482410C52B00D90AC8 /* ContentView.swift in Sources */,
+				1978B6DA2412007A0065811D /* AppView.swift in Sources */,
+				19B2481324120F87003363B7 /* CheckOutView.swift in Sources */,
 				19BDFEE52410D9FD001DC294 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
