@@ -20,7 +20,17 @@
 		197EA3502410C53D00D90AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197EA34E2410C53D00D90AC8 /* LaunchScreen.storyboard */; };
 		198696A12419FE3B00165291 /* StackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198696A02419FE3B00165291 /* StackContentView.swift */; };
 		198696A3241A1B1300165291 /* ScrollViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198696A2241A1B1300165291 /* ScrollViewContent.swift */; };
+		19C8B09724207688004A6567 /* WorkingwithState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8B09624207688004A6567 /* WorkingwithState.swift */; };
+		19C8B09924207A4D004A6567 /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8B09824207A4D004A6567 /* ViewLayout.swift */; };
 		19D2FFB2241F250900887958 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFB1241F250900887958 /* GridView.swift */; };
+		19D2FFB6241F31E800887958 /* StateControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFB5241F31E800887958 /* StateControlsView.swift */; };
+		19D2FFBA241F3C2F00887958 /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFB9241F3C2F00887958 /* NavigationLinkView.swift */; };
+		19D2FFBC241F444000887958 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFBB241F444000887958 /* SliderView.swift */; };
+		19D2FFBE241F56E900887958 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFBD241F56E900887958 /* PickerView.swift */; };
+		19D2FFC0241F618100887958 /* SegmentedControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFBF241F618100887958 /* SegmentedControls.swift */; };
+		19D2FFC2241F6AC500887958 /* StepperContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFC1241F6AC500887958 /* StepperContentView.swift */; };
+		19D2FFC4241F713300887958 /* GestureViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFC3241F713300887958 /* GestureViewContent.swift */; };
+		19D2FFC6241F806200887958 /* LifeCycleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D2FFC5241F806200887958 /* LifeCycleEvents.swift */; };
 		19FDFD3B2418E824000DD855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3A2418E824000DD855 /* ContentView.swift */; };
 		19FDFD3D2418E8C6000DD855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */; };
 		19FDFD3F2418E8F2000DD855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */; };
@@ -42,7 +52,17 @@
 		197EA3512410C53D00D90AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		198696A02419FE3B00165291 /* StackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContentView.swift; sourceTree = "<group>"; };
 		198696A2241A1B1300165291 /* ScrollViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewContent.swift; sourceTree = "<group>"; };
+		19C8B09624207688004A6567 /* WorkingwithState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingwithState.swift; sourceTree = "<group>"; };
+		19C8B09824207A4D004A6567 /* ViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
 		19D2FFB1241F250900887958 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		19D2FFB5241F31E800887958 /* StateControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateControlsView.swift; sourceTree = "<group>"; };
+		19D2FFB9241F3C2F00887958 /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		19D2FFBB241F444000887958 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		19D2FFBD241F56E900887958 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		19D2FFBF241F618100887958 /* SegmentedControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControls.swift; sourceTree = "<group>"; };
+		19D2FFC1241F6AC500887958 /* StepperContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperContentView.swift; sourceTree = "<group>"; };
+		19D2FFC3241F713300887958 /* GestureViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewContent.swift; sourceTree = "<group>"; };
+		19D2FFC5241F806200887958 /* LifeCycleEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleEvents.swift; sourceTree = "<group>"; };
 		19FDFD3A2418E824000DD855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,20 +98,11 @@
 		197EA3422410C52B00D90AC8 /* OrderApp */ = {
 			isa = PBXGroup;
 			children = (
+				19D2FFB4241F2FB000887958 /* State */,
+				19D2FFB3241F2F6C00887958 /* Viewlayout */,
 				19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */,
 				19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */,
 				19FDFD3A2418E824000DD855 /* ContentView.swift */,
-				19521E8F241B695A009979B3 /* GradientViewContent.swift */,
-				19521E91241B6D1F009979B3 /* BackgroundImagesViewContent.swift */,
-				19521E93241B7AEF009979B3 /* ReturnDifferentviewContent.swift */,
-				198696A02419FE3B00165291 /* StackContentView.swift */,
-				19521E95241B7D95009979B3 /* MultipleViewsContent.swift */,
-				19521E97241B86DE009979B3 /* CustomFrameViewContent.swift */,
-				198696A2241A1B1300165291 /* ScrollViewContent.swift */,
-				19521E99241B8A0A009979B3 /* ViewwithGeometryReader.swift */,
-				19521E9B241B8FD5009979B3 /* 3DeffectsContentView.swift */,
-				19521E9D241B9529009979B3 /* GridStack.swift */,
-				19D2FFB1241F250900887958 /* GridView.swift */,
 				197EA3492410C53D00D90AC8 /* Assets.xcassets */,
 				197EA34E2410C53D00D90AC8 /* LaunchScreen.storyboard */,
 				197EA3512410C53D00D90AC8 /* Info.plist */,
@@ -106,6 +117,41 @@
 				197EA34C2410C53D00D90AC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19D2FFB3241F2F6C00887958 /* Viewlayout */ = {
+			isa = PBXGroup;
+			children = (
+				19C8B09824207A4D004A6567 /* ViewLayout.swift */,
+				19521E8F241B695A009979B3 /* GradientViewContent.swift */,
+				19521E91241B6D1F009979B3 /* BackgroundImagesViewContent.swift */,
+				19521E93241B7AEF009979B3 /* ReturnDifferentviewContent.swift */,
+				198696A02419FE3B00165291 /* StackContentView.swift */,
+				19521E95241B7D95009979B3 /* MultipleViewsContent.swift */,
+				19521E97241B86DE009979B3 /* CustomFrameViewContent.swift */,
+				198696A2241A1B1300165291 /* ScrollViewContent.swift */,
+				19521E99241B8A0A009979B3 /* ViewwithGeometryReader.swift */,
+				19521E9B241B8FD5009979B3 /* 3DeffectsContentView.swift */,
+				19521E9D241B9529009979B3 /* GridStack.swift */,
+				19D2FFB1241F250900887958 /* GridView.swift */,
+			);
+			path = Viewlayout;
+			sourceTree = "<group>";
+		};
+		19D2FFB4241F2FB000887958 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				19C8B09624207688004A6567 /* WorkingwithState.swift */,
+				19D2FFB5241F31E800887958 /* StateControlsView.swift */,
+				19D2FFB9241F3C2F00887958 /* NavigationLinkView.swift */,
+				19D2FFBB241F444000887958 /* SliderView.swift */,
+				19D2FFBD241F56E900887958 /* PickerView.swift */,
+				19D2FFBF241F618100887958 /* SegmentedControls.swift */,
+				19D2FFC1241F6AC500887958 /* StepperContentView.swift */,
+				19D2FFC3241F713300887958 /* GestureViewContent.swift */,
+				19D2FFC5241F806200887958 /* LifeCycleEvents.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,18 +227,28 @@
 			files = (
 				19521E94241B7AEF009979B3 /* ReturnDifferentviewContent.swift in Sources */,
 				19FDFD3D2418E8C6000DD855 /* AppDelegate.swift in Sources */,
+				19D2FFBE241F56E900887958 /* PickerView.swift in Sources */,
+				19D2FFC6241F806200887958 /* LifeCycleEvents.swift in Sources */,
+				19D2FFC0241F618100887958 /* SegmentedControls.swift in Sources */,
 				19521E9C241B8FD5009979B3 /* 3DeffectsContentView.swift in Sources */,
 				198696A12419FE3B00165291 /* StackContentView.swift in Sources */,
+				19D2FFC4241F713300887958 /* GestureViewContent.swift in Sources */,
 				19521E9E241B9529009979B3 /* GridStack.swift in Sources */,
+				19D2FFC2241F6AC500887958 /* StepperContentView.swift in Sources */,
 				19521E98241B86DE009979B3 /* CustomFrameViewContent.swift in Sources */,
 				19521E96241B7D95009979B3 /* MultipleViewsContent.swift in Sources */,
+				19C8B09924207A4D004A6567 /* ViewLayout.swift in Sources */,
+				19D2FFB6241F31E800887958 /* StateControlsView.swift in Sources */,
 				19FDFD3B2418E824000DD855 /* ContentView.swift in Sources */,
 				19521E92241B6D1F009979B3 /* BackgroundImagesViewContent.swift in Sources */,
 				19521E9A241B8A0A009979B3 /* ViewwithGeometryReader.swift in Sources */,
+				19D2FFBC241F444000887958 /* SliderView.swift in Sources */,
 				19D2FFB2241F250900887958 /* GridView.swift in Sources */,
+				19D2FFBA241F3C2F00887958 /* NavigationLinkView.swift in Sources */,
 				198696A3241A1B1300165291 /* ScrollViewContent.swift in Sources */,
 				19521E90241B695A009979B3 /* GradientViewContent.swift in Sources */,
 				19FDFD3F2418E8F2000DD855 /* SceneDelegate.swift in Sources */,
+				19C8B09724207688004A6567 /* WorkingwithState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
