@@ -10,7 +10,7 @@ import SwiftUI
 
 struct NavigationLinkView: View {
        @State private var name : String = ""
-    @State private var password : String = ""
+        @State private var password : String = ""
     
     var body: some View {
      
