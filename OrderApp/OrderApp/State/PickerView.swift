@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct PickerView: View {
+    
     var colors = ["Red" , "Green" , "Blue" , "Tartan"]
     var dateFormatter: DateFormatter {
         let formatter = DateFormatter()
@@ -22,8 +23,9 @@ struct PickerView: View {
         Group{
             VStack{
                 DatePicker(selection: $birthDate, in: ...Date() , displayedComponents: .date){
-                   Text("Select a date")
+                    Text("Select a date")
                 }.labelsHidden()
+                
                 Text("Date is \(birthDate , formatter : dateFormatter)")
             }
 

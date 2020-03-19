@@ -24,7 +24,6 @@ struct MoveRowFromLists: View {
     func move(fromSource : IndexSet , toDestination : Int) {
         users.move(fromOffsets: fromSource, toOffset: toDestination)
     }
-    
 }
 
 struct MoveRowFromLists_Previews: PreviewProvider {

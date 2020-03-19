@@ -35,8 +35,24 @@ struct ContentView: View{
                 .frame(height : 50)
                 .background(Color.purple)
                 .cornerRadius(5)
+                
+                NavigationLink(destination : ListsFormsContainersView()){
+                    Text("Lists,Forms and Containers")
+                }
+                .frame(height : 50)
+                .background(Color.orange)
+                .cornerRadius(5)
+                
+                NavigationLink(destination : FoodCornerView()){
+                    Text("Food Corner Grid")
+                }
+                .frame(height : 50)
+                .background(Color.red)
+                .cornerRadius(8)
             }
+                
             .padding(.top)
+            .navigationBarTitle("All" , displayMode:  .inline)
         }
     }
   

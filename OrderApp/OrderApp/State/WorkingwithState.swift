@@ -56,7 +56,7 @@ struct WorkingwithState: View {
                 .background(Color.black)
                 
             }
-            .navigationBarTitle("Working with State")
+            .navigationBarTitle("Working with State" , displayMode: .inline)
 
         }
     }

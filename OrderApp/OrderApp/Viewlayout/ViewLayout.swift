@@ -68,7 +68,7 @@ struct ViewLayout: View {
                 .foregroundColor(.red)
             }.padding()
             
-        .navigationBarTitle(Text("vIeW LaYoUt"))
+                .navigationBarTitle(Text("vIeW LaYoUt") , displayMode: .inline)
         }
         
     }
