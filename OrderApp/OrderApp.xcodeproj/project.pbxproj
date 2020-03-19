@@ -50,6 +50,9 @@
 		19E2C28124221D6100FCE890 /* ListsFormsContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2C28024221D6100FCE890 /* ListsFormsContainersView.swift */; };
 		19E2C28424222B5D00FCE890 /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2C28324222B5D00FCE890 /* ShowAlertView.swift */; };
 		19E2C286242234A700FCE890 /* ShowActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2C285242234A700FCE890 /* ShowActionSheetView.swift */; };
+		19F8F673242310CF006A08A7 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F672242310CF006A08A7 /* ContextMenuView.swift */; };
+		19F8F67724231D82006A08A7 /* PresentViewbySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F67624231D82006A08A7 /* PresentViewbySheet.swift */; };
+		19F8F6792423233E006A08A7 /* PresentingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F6782423233E006A08A7 /* PresentingView.swift */; };
 		19FDFD3B2418E824000DD855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3A2418E824000DD855 /* ContentView.swift */; };
 		19FDFD3D2418E8C6000DD855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */; };
 		19FDFD3F2418E8F2000DD855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */; };
@@ -101,6 +104,9 @@
 		19E2C28024221D6100FCE890 /* ListsFormsContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsFormsContainersView.swift; sourceTree = "<group>"; };
 		19E2C28324222B5D00FCE890 /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
 		19E2C285242234A700FCE890 /* ShowActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowActionSheetView.swift; sourceTree = "<group>"; };
+		19F8F672242310CF006A08A7 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
+		19F8F67624231D82006A08A7 /* PresentViewbySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewbySheet.swift; sourceTree = "<group>"; };
+		19F8F6782423233E006A08A7 /* PresentingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingView.swift; sourceTree = "<group>"; };
 		19FDFD3A2418E824000DD855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,9 +142,9 @@
 		197EA3422410C52B00D90AC8 /* OrderApp */ = {
 			isa = PBXGroup;
 			children = (
+				19C8B0AB2420CBF0004A6567 /* FoodCornerView.swift */,
 				19E2C28224222B0F00FCE890 /* Presentation */,
 				19C8B0AD2420E131004A6567 /* ListsFormsContainers */,
-				19C8B0AB2420CBF0004A6567 /* FoodCornerView.swift */,
 				19C8B09A2420803F004A6567 /* Advanced States */,
 				19D2FFB4241F2FB000887958 /* State */,
 				19D2FFB3241F2F6C00887958 /* Viewlayout */,
@@ -231,6 +237,9 @@
 			children = (
 				19E2C28324222B5D00FCE890 /* ShowAlertView.swift */,
 				19E2C285242234A700FCE890 /* ShowActionSheetView.swift */,
+				19F8F672242310CF006A08A7 /* ContextMenuView.swift */,
+				19F8F67624231D82006A08A7 /* PresentViewbySheet.swift */,
+				19F8F6782423233E006A08A7 /* PresentingView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -307,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E2C286242234A700FCE890 /* ShowActionSheetView.swift in Sources */,
+				19F8F67724231D82006A08A7 /* PresentViewbySheet.swift in Sources */,
 				19C8B0A6242093BF004A6567 /* UserAuthentication.swift in Sources */,
 				19E2C28124221D6100FCE890 /* ListsFormsContainersView.swift in Sources */,
 				19521E94241B7AEF009979B3 /* ReturnDifferentviewContent.swift in Sources */,
@@ -314,6 +324,7 @@
 				19E2C28424222B5D00FCE890 /* ShowAlertView.swift in Sources */,
 				19D2FFBE241F56E900887958 /* PickerView.swift in Sources */,
 				19D2FFC6241F806200887958 /* LifeCycleEvents.swift in Sources */,
+				19F8F6792423233E006A08A7 /* PresentingView.swift in Sources */,
 				19D2FFC0241F618100887958 /* SegmentedControls.swift in Sources */,
 				19521E9C241B8FD5009979B3 /* 3DeffectsContentView.swift in Sources */,
 				19C8B0AA2420C473004A6567 /* Timer.swift in Sources */,
@@ -343,6 +354,7 @@
 				19D2FFBA241F3C2F00887958 /* NavigationLinkView.swift in Sources */,
 				19C8B0A82420B360004A6567 /* CustomBindingsView.swift in Sources */,
 				198696A3241A1B1300165291 /* ScrollViewContent.swift in Sources */,
+				19F8F673242310CF006A08A7 /* ContextMenuView.swift in Sources */,
 				19521E90241B695A009979B3 /* GradientViewContent.swift in Sources */,
 				19E2C2752421C96F00FCE890 /* DeleteRowFromLists.swift in Sources */,
 				19FDFD3F2418E8F2000DD855 /* SceneDelegate.swift in Sources */,

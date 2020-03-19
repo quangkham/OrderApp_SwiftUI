@@ -17,9 +17,18 @@ struct ListsView: View {
         let restaurants = [first, second, third , fourht]
         
 //        return List(restaurants) { restaurant in
-//            RestaurantRow(restaurant: restaurant)
-//        }// first way
-        return List(restaurants , rowContent: RestaurantRow.init)//second way to make shorter
+//        RestaurantRow(restaurant: restaurant)
+//        } //first way
+        
+        //return List(restaurants , rowContent: RestaurantRow.init)//second way to make shorter
+        
+        return NavigationView {
+            List(restaurants) { restaurant in
+                NavigationLink(destination: RestaurantView(restaurant: restaurant)){
+                     RestaurantRow(restaurant: restaurant)
+                }
+            }.navigationBarTitle("Select a restaurant")
+        }
     }
 }
 
@@ -34,11 +43,20 @@ struct RestaurantRow : View{
     
     var restaurant : Restaurant
     var body : some View {
-        Text("Come and eat at  \(restaurant.name)")
+        Text("\(restaurant.name)")
     }
 }
 
 struct Restaurant : Identifiable {
+    
     var id = UUID()
     var name : String
+}
+
+struct RestaurantView : View {
+    var restaurant : Restaurant
+    var body : some View {
+        Text("Come and eat \(restaurant.name)")
+            .font(.largeTitle)
+    }
 }

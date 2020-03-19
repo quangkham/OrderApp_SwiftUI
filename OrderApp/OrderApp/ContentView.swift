@@ -49,6 +49,15 @@ struct ContentView: View{
                 .frame(height : 50)
                 .background(Color.red)
                 .cornerRadius(8)
+                
+                NavigationLink(destination : PresentingView()){
+                    Text("Alert, actionSheet & Presenting View")
+                }
+                .frame(height : 50)
+                .background(Color.red)
+                .cornerRadius(8)
+                
+                
             }
                 
             .padding(.top)

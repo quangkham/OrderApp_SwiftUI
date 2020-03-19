@@ -10,7 +10,21 @@ import SwiftUI
 
 struct ContextMenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            
+            Text("Options").contextMenu{
+                Button(action : {}){
+                    Text("Choose Country")
+                    Image(systemName: "globe")
+                }
+                
+                Button(action : {}){
+                    Text("Detect Location")
+                    Image(systemName: "location.circle")
+                }
+            }
+        }
+        
     }
 }
 
