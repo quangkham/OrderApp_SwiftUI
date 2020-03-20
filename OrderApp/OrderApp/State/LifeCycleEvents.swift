@@ -9,19 +9,20 @@
 import SwiftUI
 
 struct LifeCycleEvents: View {
+
     var body: some View {
-        NavigationView{
-            VStack {
-                NavigationLink(destination: DetailView()) {
-                    Text("Hello World")
-                }
-            }
-        }.onAppear{
-            print("ContentView appeared")
-        }.onDisappear(){
-            print("ContentView disappeared")
-        }
-        
+//        NavigationView{
+//            VStack {
+//                NavigationLink(destination: DetailView()) {
+//                    Text("Hello World")
+//                }
+//            }
+//        }.onAppear{
+//            print("ContentView appeared")
+//        }.onDisappear(){
+//            print("ContentView disappeared")
+//        }
+        Text("Heoolo")
     }
 }
 
@@ -34,9 +35,11 @@ struct LifeCycleEvents_Previews: PreviewProvider {
 
 
 struct DetailView : View {
+    var cell : Cell
     var body : some View {
         VStack {
-            Text("Second View")
+            Image(cell.imageURL).frame(width : 200 , height : 200)
+            Text("Food details view")
         }.onAppear() {
             print("DetailView appeared!")
         }.onDisappear() {

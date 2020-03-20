@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1915DA972424BCB900049699 /* Animationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1915DA962424BCB900049699 /* Animationview.swift */; };
+		1915DA992424BCE900049699 /* SiproShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1915DA982424BCE900049699 /* SiproShape.swift */; };
 		19521E90241B695A009979B3 /* GradientViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19521E8F241B695A009979B3 /* GradientViewContent.swift */; };
 		19521E92241B6D1F009979B3 /* BackgroundImagesViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19521E91241B6D1F009979B3 /* BackgroundImagesViewContent.swift */; };
 		19521E94241B7AEF009979B3 /* ReturnDifferentviewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19521E93241B7AEF009979B3 /* ReturnDifferentviewContent.swift */; };
@@ -66,6 +68,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1915DA962424BCB900049699 /* Animationview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animationview.swift; sourceTree = "<group>"; };
+		1915DA982424BCE900049699 /* SiproShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiproShape.swift; sourceTree = "<group>"; };
 		19521E8F241B695A009979B3 /* GradientViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewContent.swift; sourceTree = "<group>"; };
 		19521E91241B6D1F009979B3 /* BackgroundImagesViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImagesViewContent.swift; sourceTree = "<group>"; };
 		19521E93241B7AEF009979B3 /* ReturnDifferentviewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnDifferentviewContent.swift; sourceTree = "<group>"; };
@@ -158,6 +162,8 @@
 			children = (
 				19F8F67C2423265E006A08A7 /* TransformingViews */,
 				19C8B0AB2420CBF0004A6567 /* FoodCornerView.swift */,
+				1915DA962424BCB900049699 /* Animationview.swift */,
+				1915DA982424BCE900049699 /* SiproShape.swift */,
 				19E2C28224222B0F00FCE890 /* Presentation */,
 				19C8B0AD2420E131004A6567 /* ListsFormsContainers */,
 				19C8B09A2420803F004A6567 /* Advanced States */,
@@ -347,6 +353,7 @@
 				19E2C286242234A700FCE890 /* ShowActionSheetView.swift in Sources */,
 				19F8F67724231D82006A08A7 /* PresentViewbySheet.swift in Sources */,
 				19C8B0A6242093BF004A6567 /* UserAuthentication.swift in Sources */,
+				1915DA992424BCE900049699 /* SiproShape.swift in Sources */,
 				19E2C28124221D6100FCE890 /* ListsFormsContainersView.swift in Sources */,
 				19521E94241B7AEF009979B3 /* ReturnDifferentviewContent.swift in Sources */,
 				19FDFD3D2418E8C6000DD855 /* AppDelegate.swift in Sources */,
@@ -389,6 +396,7 @@
 				19C8B0A82420B360004A6567 /* CustomBindingsView.swift in Sources */,
 				198696A3241A1B1300165291 /* ScrollViewContent.swift in Sources */,
 				19F8F673242310CF006A08A7 /* ContextMenuView.swift in Sources */,
+				1915DA972424BCB900049699 /* Animationview.swift in Sources */,
 				19521E90241B695A009979B3 /* GradientViewContent.swift in Sources */,
 				19E2C2752421C96F00FCE890 /* DeleteRowFromLists.swift in Sources */,
 				19F8F68024232BA6006A08A7 /* ColorOfPadding.swift in Sources */,

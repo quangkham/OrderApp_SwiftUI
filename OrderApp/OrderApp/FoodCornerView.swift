@@ -14,7 +14,7 @@ struct FoodCornerView: View {
     let rows = Row.all()
     
     var body: some View {
-        List {
+        ScrollView {
             ForEach(rows) { row in
                 HStack(alignment : .center) {
                     ForEach(row.cells) { cell in
