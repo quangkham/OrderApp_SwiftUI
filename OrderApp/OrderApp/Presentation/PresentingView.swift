@@ -12,6 +12,7 @@ struct PresentingView: View {
     var body: some View {
         NavigationView {
             VStack(alignment : .leading , spacing : 16) {
+                
                 NavigationLink(destination: ShowAlertView()){
                     Text("Show Alert")
                 }
@@ -32,6 +33,7 @@ struct PresentingView: View {
                 .frame(height : 50)
                 .background(Color.purple)
                 .cornerRadius(10)
+                
                 
                 NavigationLink(destination: PresentViewbySheet()){
                     Text("Present new view with Sheet")

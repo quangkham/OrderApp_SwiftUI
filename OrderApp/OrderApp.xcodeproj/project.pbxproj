@@ -53,6 +53,13 @@
 		19F8F673242310CF006A08A7 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F672242310CF006A08A7 /* ContextMenuView.swift */; };
 		19F8F67724231D82006A08A7 /* PresentViewbySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F67624231D82006A08A7 /* PresentViewbySheet.swift */; };
 		19F8F6792423233E006A08A7 /* PresentingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F6782423233E006A08A7 /* PresentingView.swift */; };
+		19F8F67E2423268D006A08A7 /* AdjustWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F67D2423268D006A08A7 /* AdjustWithOffset.swift */; };
+		19F8F68024232BA6006A08A7 /* ColorOfPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F67F24232BA6006A08A7 /* ColorOfPadding.swift */; };
+		19F8F682242333E7006A08A7 /* ShadowAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F681242333E7006A08A7 /* ShadowAroundView.swift */; };
+		19F8F68424234B86006A08A7 /* RotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F68324234B86006A08A7 /* RotatingView.swift */; };
+		19F8F68624234F3B006A08A7 /* Rotation3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F68524234F3B006A08A7 /* Rotation3DView.swift */; };
+		19F8F68824235B10006A08A7 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F68724235B10006A08A7 /* BlurView.swift */; };
+		19F8F68A24237F0B006A08A7 /* TransformingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8F68924237F0B006A08A7 /* TransformingView.swift */; };
 		19FDFD3B2418E824000DD855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3A2418E824000DD855 /* ContentView.swift */; };
 		19FDFD3D2418E8C6000DD855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */; };
 		19FDFD3F2418E8F2000DD855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */; };
@@ -107,6 +114,13 @@
 		19F8F672242310CF006A08A7 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		19F8F67624231D82006A08A7 /* PresentViewbySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewbySheet.swift; sourceTree = "<group>"; };
 		19F8F6782423233E006A08A7 /* PresentingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingView.swift; sourceTree = "<group>"; };
+		19F8F67D2423268D006A08A7 /* AdjustWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustWithOffset.swift; sourceTree = "<group>"; };
+		19F8F67F24232BA6006A08A7 /* ColorOfPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfPadding.swift; sourceTree = "<group>"; };
+		19F8F681242333E7006A08A7 /* ShadowAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowAroundView.swift; sourceTree = "<group>"; };
+		19F8F68324234B86006A08A7 /* RotatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingView.swift; sourceTree = "<group>"; };
+		19F8F68524234F3B006A08A7 /* Rotation3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DView.swift; sourceTree = "<group>"; };
+		19F8F68724235B10006A08A7 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		19F8F68924237F0B006A08A7 /* TransformingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingView.swift; sourceTree = "<group>"; };
 		19FDFD3A2418E824000DD855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19FDFD3C2418E8C6000DD855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FDFD3E2418E8F2000DD855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +156,7 @@
 		197EA3422410C52B00D90AC8 /* OrderApp */ = {
 			isa = PBXGroup;
 			children = (
+				19F8F67C2423265E006A08A7 /* TransformingViews */,
 				19C8B0AB2420CBF0004A6567 /* FoodCornerView.swift */,
 				19E2C28224222B0F00FCE890 /* Presentation */,
 				19C8B0AD2420E131004A6567 /* ListsFormsContainers */,
@@ -235,13 +250,27 @@
 		19E2C28224222B0F00FCE890 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				19F8F6782423233E006A08A7 /* PresentingView.swift */,
 				19E2C28324222B5D00FCE890 /* ShowAlertView.swift */,
 				19E2C285242234A700FCE890 /* ShowActionSheetView.swift */,
 				19F8F672242310CF006A08A7 /* ContextMenuView.swift */,
 				19F8F67624231D82006A08A7 /* PresentViewbySheet.swift */,
-				19F8F6782423233E006A08A7 /* PresentingView.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		19F8F67C2423265E006A08A7 /* TransformingViews */ = {
+			isa = PBXGroup;
+			children = (
+				19F8F67D2423268D006A08A7 /* AdjustWithOffset.swift */,
+				19F8F67F24232BA6006A08A7 /* ColorOfPadding.swift */,
+				19F8F681242333E7006A08A7 /* ShadowAroundView.swift */,
+				19F8F68324234B86006A08A7 /* RotatingView.swift */,
+				19F8F68524234F3B006A08A7 /* Rotation3DView.swift */,
+				19F8F68724235B10006A08A7 /* BlurView.swift */,
+				19F8F68924237F0B006A08A7 /* TransformingView.swift */,
+			);
+			path = TransformingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,9 +350,11 @@
 				19E2C28124221D6100FCE890 /* ListsFormsContainersView.swift in Sources */,
 				19521E94241B7AEF009979B3 /* ReturnDifferentviewContent.swift in Sources */,
 				19FDFD3D2418E8C6000DD855 /* AppDelegate.swift in Sources */,
+				19F8F68A24237F0B006A08A7 /* TransformingView.swift in Sources */,
 				19E2C28424222B5D00FCE890 /* ShowAlertView.swift in Sources */,
 				19D2FFBE241F56E900887958 /* PickerView.swift in Sources */,
 				19D2FFC6241F806200887958 /* LifeCycleEvents.swift in Sources */,
+				19F8F68824235B10006A08A7 /* BlurView.swift in Sources */,
 				19F8F6792423233E006A08A7 /* PresentingView.swift in Sources */,
 				19D2FFC0241F618100887958 /* SegmentedControls.swift in Sources */,
 				19521E9C241B8FD5009979B3 /* 3DeffectsContentView.swift in Sources */,
@@ -333,6 +364,7 @@
 				19C8B0AF2420E18E004A6567 /* ListsView.swift in Sources */,
 				19D2FFC4241F713300887958 /* GestureViewContent.swift in Sources */,
 				19E2C27B2421D63600FCE890 /* ImplicitStacking.swift in Sources */,
+				19F8F68624234F3B006A08A7 /* Rotation3DView.swift in Sources */,
 				19521E9E241B9529009979B3 /* GridStack.swift in Sources */,
 				19D2FFC2241F6AC500887958 /* StepperContentView.swift in Sources */,
 				19521E98241B86DE009979B3 /* CustomFrameViewContent.swift in Sources */,
@@ -341,6 +373,8 @@
 				19C8B09924207A4D004A6567 /* ViewLayout.swift in Sources */,
 				19D2FFB6241F31E800887958 /* StateControlsView.swift in Sources */,
 				19FDFD3B2418E824000DD855 /* ContentView.swift in Sources */,
+				19F8F68424234B86006A08A7 /* RotatingView.swift in Sources */,
+				19F8F682242333E7006A08A7 /* ShadowAroundView.swift in Sources */,
 				19E2C27D2421DAF300FCE890 /* BasicForm.swift in Sources */,
 				19E2C2792421CECC00FCE890 /* SectionInLists.swift in Sources */,
 				19521E92241B6D1F009979B3 /* BackgroundImagesViewContent.swift in Sources */,
@@ -357,9 +391,11 @@
 				19F8F673242310CF006A08A7 /* ContextMenuView.swift in Sources */,
 				19521E90241B695A009979B3 /* GradientViewContent.swift in Sources */,
 				19E2C2752421C96F00FCE890 /* DeleteRowFromLists.swift in Sources */,
+				19F8F68024232BA6006A08A7 /* ColorOfPadding.swift in Sources */,
 				19FDFD3F2418E8F2000DD855 /* SceneDelegate.swift in Sources */,
 				19C8B09C2420896B004A6567 /* ObservableContentview.swift in Sources */,
 				19C8B09724207688004A6567 /* WorkingwithState.swift in Sources */,
+				19F8F67E2423268D006A08A7 /* AdjustWithOffset.swift in Sources */,
 				19E2C2772421CC2B00FCE890 /* MoveRowFromLists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

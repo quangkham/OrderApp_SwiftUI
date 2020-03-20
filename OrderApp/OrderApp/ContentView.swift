@@ -57,7 +57,12 @@ struct ContentView: View{
                 .background(Color.red)
                 .cornerRadius(8)
                 
-                
+                NavigationLink(destination : TransformingView()){
+                    Text("Transforming Views")
+                }
+                .frame(height : 50)
+                .background(Color.pink)
+            .cornerRadius(10)
             }
                 
             .padding(.top)
